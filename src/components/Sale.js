@@ -20,6 +20,7 @@ class Sale extends Component{
       <div>
         <div className="row">
         <div className="col-5" style={{borderRight: "1.5px solid #D3D3D3"}}>
+        <div class="card" style={{ overflow: "scroll", height: "52vh"}}>
         <table class="table table-hover">
           <thead>
             <tr>
@@ -73,8 +74,21 @@ class Sale extends Component{
               <td>340.00</td>
               <td>680.00</td>
             </tr>
+                  <tr>
+                    <td>กระเป๋า</td>
+                    <td>2</td>
+                    <td>340.00</td>
+                    <td>680.00</td>
+                  </tr>
+                  <tr>
+                    <td>กระเป๋า</td>
+                    <td>2</td>
+                    <td>340.00</td>
+                    <td>680.00</td>
+                  </tr>
           </tbody>
         </table>
+        </div>
             <div class="card">
               <div className="row" style={{padding: "1%", height: "25vh", paddingLeft: "5%"}}>
               <div class="card-body" style={{width : "50%"}}>
@@ -115,7 +129,7 @@ class Sale extends Component{
               <button className="btn btn-outline-secondary" type="button" id="button-addon2">ค้นหา</button>
             </div>
           </div>
-          <div style={{overflow: "scroll",height: "80vh"}}>
+          <div style={{overflow: "scroll",height: "79vh"}}>
           <p><b>รองเท้า</b></p>
           <div class="card-deck">
 
